@@ -57,25 +57,22 @@
     </q-drawer>
 
     <q-page-container>
-  <router-view />
-  <div class="q-pa-md">
-    <q-carousel
-      animated
-      v-model="slide"
-      arrows
-      navigation
-      infinite
-      height="100vh" <!-- Ini adalah komentar yang tidak valid di dalam tag HTML -->
-    >
-      <q-carousel-slide :name="1" img-src="https://i.pinimg.com/564x/5e/18/8e/5e188e03791a1eca5ce4e6b98666ad38.jpg" />
-      <q-carousel-slide :name="2" img-src="https://i.pinimg.com/564x/eb/35/4e/eb354e8c2b1c8ba61fb8700708310464.jpg" />
-      <q-carousel-slide :name="3" img-src="https://i.pinimg.com/564x/f2/eb/5b/f2eb5ba30d3444034f4b2e801559787c.jpg" />
-      <q-carousel-slide :name="4" img-src="https://i.pinimg.com/736x/2b/97/99/2b9799e6efbc3f6345d26997268c605c.jpg" />
-    </q-carousel>
-  </div>
-</q-page-container>
-
-
+      <router-view />
+      <div class="q-pa-md">
+        <q-carousel
+          animated
+          v-model="slide"
+          arrows
+          navigation
+          infinite
+          height="100vh">
+          <q-carousel-slide :name="1" img-src="https://i.pinimg.com/564x/5e/18/8e/5e188e03791a1eca5ce4e6b98666ad38.jpg" />
+          <q-carousel-slide :name="2" img-src="https://i.pinimg.com/564x/eb/35/4e/eb354e8c2b1c8ba61fb8700708310464.jpg" />
+          <q-carousel-slide :name="3" img-src="https://i.pinimg.com/564x/f2/eb/5b/f2eb5ba30d3444034f4b2e801559787c.jpg" />
+          <q-carousel-slide :name="4" img-src="https://i.pinimg.com/736x/2b/97/99/2b9799e6efbc3f6345d26997268c605c.jpg" />
+        </q-carousel>
+      </div>
+    </q-page-container>
 
     <q-footer elevated class="bg-grey-8 text-white">
       <q-toolbar>
