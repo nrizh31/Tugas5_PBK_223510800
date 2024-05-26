@@ -19,3 +19,8 @@ myApp.use(Quasar, {
 
 // Assumes you have a <div id="app"></div> in your index.html
 myApp.mount('#app')
+
+onMounted(() => {
+  const audio = document.getElementById('background-music')
+  audio.volume = 0.5 // Adjust the volume here (0.0 to 1.0)
+})
