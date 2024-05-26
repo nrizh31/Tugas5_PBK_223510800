@@ -98,7 +98,7 @@
         </q-carousel>
       </div>
     </q-page-container>
->>>>>>> a2a285c213564d2eaf71ecce0c7895f5d32bb47f
+a2a285c213564d2eaf71ecce0c7895f5d32bb47f>>>>>>> 
 
     <q-footer elevated class="bg-grey-8 text-white">
       <q-toolbar>
