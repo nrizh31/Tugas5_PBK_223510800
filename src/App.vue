@@ -77,7 +77,7 @@
       <q-carousel-slide :name="2" img-src="https://i.pinimg.com/564x/eb/35/4e/eb354e8c2b1c8ba61fb8700708310464.jpg" />
       <q-carousel-slide :name="3" img-src="https://i.pinimg.com/564x/f2/eb/5b/f2eb5ba30d3444034f4b2e801559787c.jpg" />
       <q-carousel-slide :name="4" img-src="https://i.pinimg.com/736x/2b/97/99/2b9799e6efbc3f6345d26997268c605c.jpg" />
-      <q-carousel-slide :name="4" img-src="https://c4.wallpaperflare.com/wallpaper/49/381/270/computer-game-gaming-laptop-wallpaper-preview.jpg" />
+      <q-carousel-slide :name="5" img-src="https://c4.wallpaperflare.com/wallpaper/49/381/270/computer-game-gaming-laptop-wallpaper-preview.jpg" />
     </q-carousel>
   </div>
 </q-page-container>
